@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generatedAt": "2026-06-16T08:27:42.867Z",
+  "generatedAt": "2026-06-16T08:47:28.608Z",
   "state": {
     "rubricVersion": "v0",
     "calibrationSamples": 0,
@@ -100,6 +100,53 @@
         "**明显跑输** → 推翻「纯深情可行」,SAT=2 是硬伤,下次加锋利收尾或社会托底",
         "**意外破圈** → \"初恋 = 一生只有一次的自己\" 这个升华点击中普世共鸣,记下这个 angle 复用"
       ],
+      "disagreement": [
+        {
+          "dim": "ER",
+          "blind": 5,
+          "self": 5,
+          "delta": 0
+        },
+        {
+          "dim": "SR",
+          "blind": 3,
+          "self": 3,
+          "delta": 0
+        },
+        {
+          "dim": "HP",
+          "blind": 4,
+          "self": 5,
+          "delta": 1
+        },
+        {
+          "dim": "QL",
+          "blind": 5,
+          "self": 5,
+          "delta": 0
+        },
+        {
+          "dim": "NA",
+          "blind": 4,
+          "self": 4,
+          "delta": 0
+        },
+        {
+          "dim": "AB",
+          "blind": 4,
+          "self": 3,
+          "delta": 1
+        },
+        {
+          "dim": "SAT",
+          "blind": 2,
+          "self": 2,
+          "delta": 0
+        }
+      ],
+      "probDist": [],
+      "directionBet": "校准池第 1 篇,无 baseline 可比 → 不给倍数 / 播放桶(cold-start 期数字 = false precision)。 方向定性:质量在水准之上。引擎 = ER + QL 双满分(情感冲击 + 金句密度)。 押注:这条会跑赢一条同题材但无金句、纯平铺叙事的片。",
+      "anchor": "N/A — 这是第 1 篇预测,predictions/ 池为空。第 2 篇起才有锚点对照。",
       "basis": "pre_shoot (定稿)",
       "confidence": "🔴 低 — cold-start,rubric 未校准,数字仅供对账不具预测力",
       "form": "opinion-video (90s)",
