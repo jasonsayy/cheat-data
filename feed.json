@@ -1,20 +1,55 @@
 {
   "ok": true,
-  "generatedAt": "2026-06-16T06:34:35.869Z",
+  "generatedAt": "2026-06-16T08:27:42.867Z",
   "state": {
     "rubricVersion": "v0",
     "calibrationSamples": 0,
+    "calTarget": 5,
     "mode": "cold-start",
-    "contentForm": "mixed"
+    "contentForm": "mixed",
+    "cadenceDays": 1,
+    "bufferCount": 0,
+    "lastRetroAt": null,
+    "lastPublishedAt": "2026-06-16T11:07:22+08:00",
+    "bumpReady": false,
+    "confidence": {
+      "emoji": "🔴",
+      "label": "極低",
+      "margin": "±50%",
+      "note": "紀律分，不是預測力。湊滿 5 篇複盤再信數字"
+    },
+    "pendingDetail": [
+      {
+        "file": "predictions/2026-06-16_5b698172685a_first-love.md",
+        "title": "初恋·最后一次不计成本地爱",
+        "publishedAt": "2026-06-16T11:07:22+0800",
+        "daysSince": 0,
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZnDoEGTOj4/",
+        "due": false
+      }
+    ]
   },
   "counts": {
     "predictions": 1,
     "pending": 1,
     "retrosDone": 0
   },
-  "pending": [
-    "predictions/2026-06-16_5b698172685a_first-love.md"
-  ],
+  "rubric": {
+    "version": "v0",
+    "bucketScheme": "ratio",
+    "formula": "(ER+SR+HP+QL+NA+AB+SAT) / 7 × 2.0  · 等权占位",
+    "coldStart": true
+  },
+  "persona": {
+    "version": "v0",
+    "confidence": "🔴 无数据（占位骨架）",
+    "dataBasis": "0 篇复盘 / 0 条评论",
+    "core": null,
+    "generated": false
+  },
+  "candidates": [],
+  "accuracy": null,
   "predictions": [
     {
       "id": "5b698172685a",
@@ -58,12 +93,24 @@
         }
       },
       "keyBet": "纯深情路线(SAT=2)在你的账号成不成立。",
+      "hypothesis": "核心赌注:纯深情路线(SAT=2)在你的账号成不成立。 这条几乎零讽刺锋利度,全靠情感共鸣 + 金句扛传播。 - 数据好 → 验证「情感 + 金句 > 讽刺」,下次可放心走深情向 - 数据差 → 推翻,说明你的受众要「狠 / 透 / 支棱」的锋利感,纯深情不够刺激转发 第 2 假设:AB=4 的「偏男性视角」判断 — 复盘看评论区女性是否大量代入。",
+      "counterfactuals": [
+        "**跑赢同题材基准** → ER/QL 主导假设成立,情感+金句是你的引擎",
+        "**跟基准持平** → 金句没转化成传播,可能前 3 秒 hook 不够狠",
+        "**明显跑输** → 推翻「纯深情可行」,SAT=2 是硬伤,下次加锋利收尾或社会托底",
+        "**意外破圈** → \"初恋 = 一生只有一次的自己\" 这个升华点击中普世共鸣,记下这个 angle 复用"
+      ],
+      "basis": "pre_shoot (定稿)",
+      "confidence": "🔴 低 — cold-start,rubric 未校准,数字仅供对账不具预测力",
+      "form": "opinion-video (90s)",
       "platform": "instagram",
       "url": "https://www.instagram.com/reel/DZnDoEGTOj4/",
       "publishedAt": "2026-06-16T11:07:22+0800",
       "predictedAt": "2026-06-16T10:59:19+0800",
       "retro": null,
-      "status": "published"
+      "status": "published",
+      "daysSincePublished": 0,
+      "file": "predictions/2026-06-16_5b698172685a_first-love.md"
     }
   ]
 }
