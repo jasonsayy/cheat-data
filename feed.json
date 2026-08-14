@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generatedAt": "2026-07-30T19:54:57.563Z",
+  "generatedAt": "2026-08-14T00:13:21.507Z",
   "state": {
     "rubricVersion": "v0",
     "calibrationSamples": 0,
@@ -23,7 +23,7 @@
         "file": "predictions/2026-06-16_5b698172685a_first-love.md",
         "title": "初恋·最后一次不计成本地爱",
         "publishedAt": "2026-06-16T11:07:22+0800",
-        "daysSince": 44,
+        "daysSince": 58,
         "platform": "instagram",
         "url": "https://www.instagram.com/reel/DZnDoEGTOj4/",
         "due": true
@@ -156,7 +156,7 @@
       "predictedAt": "2026-06-16T10:59:19+0800",
       "retro": null,
       "status": "published",
-      "daysSincePublished": 44,
+      "daysSincePublished": 58,
       "file": "predictions/2026-06-16_5b698172685a_first-love.md"
     }
   ]
